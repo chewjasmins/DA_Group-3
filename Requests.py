@@ -23,7 +23,7 @@ for x in h.headers:
 print("**********")
 
 # Modify the Header user-agent to display "iPhone 14"
-headers = {'User-Agent': 'iPhone 14'}
+headers = {'User-Agent': 'Mobile'}
 # Test against test site that output the requester user-agent
 #url2 = 'http://httpbin.org/headers'
 url2 = 'http://172.18.58.80/creative/'
